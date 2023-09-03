@@ -1,1 +1,1 @@
-project with oleksander polovka
+practice project
