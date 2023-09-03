@@ -1,8 +1,21 @@
 $header-text-color: #000001;
- .nav-list {
+// color of text on the header
+$header-down-line: #a1a1a1;
+// color of the line down of the header
+.nav-list {
   display: flex;
   justify-content: end;
   width: 100%;
+  //   &::after {
+  //     content: "";
+  //     position: absolute;
+  //     display: block;
+  //     width: 100%;
+  //     height: 2px;
+  //     background-color: $header-down-line;
+  //     margin-top: 25px;
+  //     margin-right: 0;
+  //   }
 }
 .nav-list-item {
   color: $header-text-color;
@@ -21,8 +34,17 @@ $header-text-color: #000001;
     content: "";
     display: block;
     width: 100%;
-    height: 2px;
+    height: 5px;
     background-color: $header-text-color;
-    // transition: background-color 3s linear;
+  }
+}
+.header {
+  &::after {
+    content: "";
+    position: absolute;
+    // display: block;
+    width: 100%;
+    height: 2px;
+    background-color: $header-down-line;
   }
 }
