@@ -5,6 +5,7 @@
 }
 
 .nav-list-item {
+  position: relative;
   color: #000001;
 }
 .nav-list-item:not(:last-child) {
@@ -24,6 +25,7 @@
   width: 100%;
   height: 5px;
   background-color: #000001;
+  position: absolute;
 }
 
 .header::after {
