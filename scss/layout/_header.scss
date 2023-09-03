@@ -1,25 +1,28 @@
-.nav-list {
+$header-text-color: #000001;
+ .nav-list {
   display: flex;
   justify-content: end;
   width: 100%;
 }
 .nav-list-item {
+  color: $header-text-color;
   &:not(:last-child) {
     margin-right: 40px;
   }
   &::after {
+    content: "";
     display: block;
     height: 2px;
     background-color: #00000000;
     width: 100%;
-    transition: background-color 3s linear;
+    transition: background-color 0.3s linear;
   }
   &:hover::after {
     content: "";
     display: block;
     width: 100%;
     height: 2px;
-    background-color: #000000;
-    transition: background-color 3s linear;
+    background-color: $header-text-color;
+    // transition: background-color 3s linear;
   }
 }
