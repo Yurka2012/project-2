@@ -1,0 +1,71 @@
+// Переменные
+$primary-color: #000;
+$secondary-color: #fff;
+$font-family: sans-serif;
+
+// Сокращения
+@mixin border-radius($radius) {
+  border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+}
+
+@mixin minify {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+// Сжатие
+@mixin compress {
+  // ...
+}
+
+// Сжатие изображений
+// ...
+
+// CDN
+// ...
+
+// Стиль
+
+// Общие
+body {
+  font-family: $font-family;
+  color: $primary-color;
+  background-color: $secondary-color;
+}
+
+// Хедер
+.header {
+  background-color: $primary-color;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.header-nav-item {
+  margin-right: 20px;
+}
+
+.header-nav-link {
+  text-decoration: none;
+  color: $secondary-color;
+}
