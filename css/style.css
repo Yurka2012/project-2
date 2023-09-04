@@ -102,10 +102,13 @@ ul, ol {
 .lorem-info {
   color: #999;
   text-align: center;
-  /* p>h2 */
   font-family: Montserrat;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 158.47%; /* 25.355px */
+}
+
+.portfolio-list-item {
+  text-align: start;
 }
