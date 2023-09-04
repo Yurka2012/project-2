@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.our-projects {
+  width: 200px;
+  height: 45px;
+}
+
 .nav-list {
   display: flex;
   justify-content: end;
@@ -54,6 +59,8 @@ ul, ol {
 .hero {
   text-align: center;
   align-items: center;
+  margin-top: 220px;
+  margin-bottom: 320px;
 }
 
 .good-studio {
@@ -66,7 +73,7 @@ ul, ol {
   line-height: normal;
 }
 
-.we-did-easy {
+.hero h1 {
   color: #fff;
   text-align: center;
   font-family: Montserrat;
@@ -75,4 +82,30 @@ ul, ol {
   font-weight: 800;
   line-height: 134.09%;
   width: 829px;
+  margin: 0 auto;
+}
+
+.portfolio {
+  align-items: center;
+  text-align: center;
+}
+
+.portfolio h2 {
+  color: #323232;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 146.28%; /* 52.661px */
+}
+
+.lorem-info {
+  color: #999;
+  text-align: center;
+  /* p>h2 */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 158.47%; /* 25.355px */
 }
