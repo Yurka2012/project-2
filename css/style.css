@@ -137,7 +137,7 @@ ul, ol {
   height: 400px;
 }
 
-.high-wrok-lorem-info {
+.high-work-lorem-info {
   align-items: start;
   width: 489px;
   height: 85px;
@@ -146,4 +146,10 @@ ul, ol {
 .high-work-text-box {
   align-items: center;
   text-align: start;
+  text-indent: 0;
+  white-space: pre-wrap;
+}
+
+.image-and-text {
+  padding: 150px 295px;
 }
