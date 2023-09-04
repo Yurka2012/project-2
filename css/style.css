@@ -112,3 +112,38 @@ ul, ol {
 .portfolio-list-item {
   text-align: start;
 }
+
+.high-work {
+  align-items: center;
+  text-align: center;
+  background-color: #f6f6f8;
+  justify-content: space-around;
+}
+
+.high-work h2 {
+  color: #323232;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  width: 424px;
+  height: 88px;
+  margin: 0 auto;
+}
+
+.high-work-img {
+  width: 500px;
+  height: 400px;
+}
+
+.high-wrok-lorem-info {
+  align-items: start;
+  width: 489px;
+  height: 85px;
+}
+
+.high-work-text-box {
+  align-items: center;
+  text-align: start;
+}
