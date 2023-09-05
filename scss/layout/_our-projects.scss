@@ -1,0 +1,33 @@
+.our-project-list-item h4 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+}
+.our-project-list-item img {
+  width: 30px;
+  height: 30px;
+}
+
+.our-project-list-item {
+  display: inline;
+}
+.first-line {
+  display: flex;
+  align-items: baseline;
+}
+.second-line p {
+  color: var(--grey, #999);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 158.47%; /* 25.355px */
+}
+.our-project-list li{
+    display: inline;
+}
+.our-project-list li:not(:last-child){
+    margin: 0 auto;
+}

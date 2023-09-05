@@ -21,17 +21,31 @@
   height: 400px;
 }
 
-.high-work-lorem-info {
+.high-wrok-lorem-info {
+    display: inline-flex;
   align-items: start;
   width: 489px;
   height: 85px;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-end;
+  align-items: flex-start;
 }
+
 .high-work-text-box {
-    align-items: center;
-    text-align: start;
-    text-indent: 0;
-    white-space: pre-wrap;
-  }
-  .image-and-text{
-    padding: 150px 295px;
-  }
+  align-items: center;
+  text-align: start;
+  text-indent: 0;
+  white-space: pre-wrap;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-end;
+  align-items: flex-start;
+}
+
+.image-and-text {
+  padding: 150px 295px;
+}

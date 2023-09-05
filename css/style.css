@@ -137,10 +137,17 @@ ul, ol {
   height: 400px;
 }
 
-.high-work-lorem-info {
+.high-wrok-lorem-info {
+  display: inline-flex;
   align-items: start;
   width: 489px;
   height: 85px;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-end;
+  align-items: flex-start;
 }
 
 .high-work-text-box {
@@ -148,8 +155,52 @@ ul, ol {
   text-align: start;
   text-indent: 0;
   white-space: pre-wrap;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-end;
+  align-items: flex-start;
 }
 
 .image-and-text {
   padding: 150px 295px;
+}
+
+.our-project-list-item h4 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.our-project-list-item img {
+  width: 30px;
+  height: 30px;
+}
+
+.our-project-list-item {
+  display: inline;
+}
+
+.first-line {
+  display: flex;
+  align-items: baseline;
+}
+
+.second-line p {
+  color: var(--grey, #999);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 158.47%; /* 25.355px */
+}
+
+.our-project-list li {
+  display: inline;
+}
+
+.our-project-list li:not(:last-child) {
+  margin: 0 auto;
 }
