@@ -303,4 +303,52 @@ ol {
 .our-spec {
   background: rgb(95, 18, 208);
   background: linear-gradient(180deg, rgb(95, 18, 208) 48%, rgb(255, 255, 255) 50%);
+  padding-bottom: 85px;
+  border-bottom: 1px solid #999;
+}
+
+.our-projects-2 {
+  margin-top: 185px;
+  padding-bottom: 130px;
+  background: #F6F6F8;
+  text-align: center;
+}
+
+.our-projects2-h2 {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 146.28%;
+}
+
+.our-projects2-lorem-info {
+  color: #999;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 158.47%;
+  width: 730px;
+  margin: 0 auto;
+  margin-top: 28px;
+  margin-bottom: 92px;
+}
+
+.our-projects2-list {
+  display: flex;
+  justify-content: center;
+}
+
+.our-projects2-list-item:not(:last-child) {
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+
+.our-projects2-button {
+  margin: 0 auto;
+  width: 200px;
 }

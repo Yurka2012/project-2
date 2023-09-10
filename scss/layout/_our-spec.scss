@@ -1,10 +1,10 @@
 .h2-button-spec {
   display: flex;
   justify-content: space-around;
-//   background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
-//   align-items: center;
-//   position: relative;
-//   padding-bottom: 300px;
+  //   background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+  //   align-items: center;
+  //   position: relative;
+  //   padding-bottom: 300px;
 }
 .our-spec-heading {
   color: $white;
@@ -71,7 +71,14 @@
   line-height: normal;
   text-decoration-line: underline;
 }
-.our-spec{
-    background: rgb(95,18,208);
-background: linear-gradient(180deg, rgba(95,18,208,1) 48%, rgba(255,255,255,1) 50%);
+.our-spec {
+  background: rgb(95, 18, 208);
+  background: linear-gradient(
+    180deg,
+    rgba(95, 18, 208, 1) 48%,
+    rgba(255, 255, 255, 1) 50%
+  );
+
+  padding-bottom: 85px;
+  border-bottom: 1px solid $grey;
 }
