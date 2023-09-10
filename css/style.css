@@ -11,11 +11,6 @@ ol {
   list-style: none;
 }
 
-.our-projects {
-  width: 200px;
-  height: 45px;
-}
-
 .nav-list {
   display: flex;
   justify-content: end;
@@ -116,6 +111,20 @@ ol {
   text-align: start;
 }
 
+.portfolio {
+  padding-bottom: 120px;
+  padding-top: 110px;
+}
+
+.lorem-info-portfolio {
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+
+.portfolio-list {
+  margin-bottom: 50px;
+}
+
 .high-work {
   align-items: center;
   text-align: center;
@@ -164,21 +173,13 @@ ol {
   padding: 150px 295px;
 }
 
-.our-project-list-item h4 {
-  color: #000;
-  font-family: Montserrat;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 400;
+.image-and-text {
+  border-bottom: 1px solid #999;
 }
 
 .our-project-list-item img {
   width: 30px;
   height: 30px;
-}
-
-.our-project-list-item {
-  display: inline;
 }
 
 .first-line {
@@ -187,7 +188,7 @@ ol {
 }
 
 .second-line p {
-  color: var(--grey, #999);
+  color: #999;
   font-family: Montserrat;
   font-size: 16px;
   font-style: normal;
@@ -195,14 +196,68 @@ ol {
   line-height: 158.47%; /* 25.355px */
 }
 
+.our-project-list {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.projects-count {
+  color: #323232;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 146.28%;
+  margin-left: 20px;
+}
+
 .our-project-list li {
   display: inline;
 }
 
 .our-project-list li:not(:last-child) {
-  margin: 0 auto;
+  margin-right: 100px;
 }
 
-.our-project-list {
-  padding: 0;
+.our-projects {
+  background: #F6F6F8;
+  padding: 70px 0;
+}
+
+.h2-button-spec {
+  display: flex;
+  justify-content: space-around;
+  background-color: #504dc2;
+  align-items: center;
+}
+
+.our-spec-heading {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 146.28%;
+  width: 540px;
+}
+
+.our-spec-but {
+  height: 45px;
+}
+
+.our-spec-list-item-img {
+  width: 350px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.our-spec-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.our-spec-list-item:not(:last-child) {
+  margin-right: 10px;
 }

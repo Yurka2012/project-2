@@ -1,0 +1,33 @@
+.h2-button-spec {
+  display: flex;
+  justify-content: space-around;
+  background-color: #504dc2;
+  align-items: center;
+}
+.our-spec-heading {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 146.28%;
+
+  width: 540px;
+}
+
+.our-spec-but {
+  height: 45px;
+}
+.our-spec-list-item-img {
+  width: 350px;
+  height: 300px;
+  border-radius: 15px;
+}
+.our-spec-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.our-spec-list-item:not(:last-child) {
+  margin-right: 10px;
+}   
