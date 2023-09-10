@@ -1,8 +1,10 @@
 .h2-button-spec {
   display: flex;
   justify-content: space-around;
-  background-color: #504dc2;
-  align-items: center;
+//   background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+//   align-items: center;
+//   position: relative;
+//   padding-bottom: 300px;
 }
 .our-spec-heading {
   color: $white;
@@ -29,5 +31,47 @@
   margin-top: 70px;
 }
 .our-spec-list-item:not(:last-child) {
-  margin-right: 10px;
-}   
+  margin-right: 30px;
+}
+.our-spec-list-item-text-box-h3 {
+  color: $dark;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.our-spec-list-item-text-box-h3 span {
+  color: var(--Accent, #4985ff);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.our-spec-list-item-text-box-lorem-info {
+  color: $grey;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 158.47%;
+  width: 350px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.our-spec-list-item-text-box-a {
+  color: var(--Accent, #4985ff);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+.our-spec{
+    background: rgb(95,18,208);
+background: linear-gradient(180deg, rgba(95,18,208,1) 48%, rgba(255,255,255,1) 50%);
+}
