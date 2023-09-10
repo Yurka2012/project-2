@@ -4,34 +4,40 @@
   background-color: #f6f6f8;
   justify-content: space-around;
 }
-.high-work h2 {
-  color: $dark;
-  text-align: center;
-  font-family: Montserrat;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  width: 424px;
-  height: 88px;
-  margin: 0 auto;
-}
 
 .high-work-img {
   width: 500px;
   height: 400px;
 }
 
+.good-work-heading {
+  color: $dark;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 146.28%;
+  width: 424px;
+}
+
 .high-wrok-lorem-info {
-    display: inline-flex;
-  align-items: start;
+  //   display: inline-flex;
+  // align-items: start;
+  // width: 489px;
+  // height: 85px;
+  // margin: 0;
+  // padding: 0;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-content: flex-end;
+  // align-items: flex-start;
+  color: $grey;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 158.47%;
   width: 489px;
-  height: 85px;
-  margin: 0;
-  padding: 0;
-  flex-direction: column;
-  justify-content: center;
-  align-content: flex-end;
-  align-items: flex-start;
 }
 
 .high-work-text-box {
