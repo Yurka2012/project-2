@@ -11,6 +11,53 @@ ol {
   list-style: none;
 }
 
+.footer-body-item-header {
+  color: #000;
+  /* h3 */
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.contact-info-listitem-img {
+  width: 15px;
+  height: 15px;
+}
+
+.contact-info-listitem-text {
+  color: var(--grey, #999);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 158.47%;
+  text-decoration: none;
+}
+
+.copyright {
+  color: var(--grey, #999);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 158.47%; /* 20.601px */
+}
+.copyright::before {
+  content: "";
+  display: block;
+  background-color: #999;
+  height: 1px;
+  width: 100%;
+}
+
+.footer-body {
+  display: flex;
+  justify-content: space-around;
+}
+
 .nav-list {
   display: flex;
   justify-content: end;
@@ -361,8 +408,6 @@ ol {
 
 .rozsilka {
   padding-top: 85px;
-  padding-left: 495px;
-  padding-right: 595px;
   padding-bottom: 85px;
   align-items: center;
   text-align: center;
@@ -372,22 +417,23 @@ ol {
   width: 489px;
   display: flex;
   align-items: center;
-}
-
-.search-rozsilka {
-  display: flex;
-  align-items: center;
+  margin: 0 auto;
+  position: relative;
 }
 
 .rozsilka-search-input {
-  width: 479px;
+  width: 299px;
   height: 45px;
   border-radius: 30px 0px 0px 30px;
+  padding-left: 39px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .rozsilka-search-button {
   background: var(--Accent, #4985ff);
-  width: 150px;
+  width: 190px;
   height: 45px;
   border-radius: 0px 30px 30px 0px;
   color: #fff;
@@ -397,6 +443,9 @@ ol {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  position: absolute;
+  left: 290px;
+  bottom: 0;
 }
 
 .search-rozsilka {
@@ -404,8 +453,6 @@ ol {
 }
 
 .rozsilka-header {
-  width: 350px;
-  height: 17px;
   color: #000;
   text-align: center;
   font-family: Montserrat;
@@ -413,18 +460,15 @@ ol {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin-left: 30%;
 }
 
 .rozsilka-text-korisni-statti {
-  width: 730px;
   color: var(--grey, #999);
   text-align: center;
   font-family: Montserrat;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  margin-left: 0px;
 }
 
 .rozsilka {
@@ -439,8 +483,16 @@ ol {
   font-style: normal;
   font-weight: 400;
   line-height: 158.47%;
-  width: 386px;
-  height: 15px;
+}
+
+.rozsilka-text-box {
+  width: 737px;
+}
+
+.container-rozsilka {
+  width: 760px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .our-video {
