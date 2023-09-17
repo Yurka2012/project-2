@@ -352,3 +352,148 @@ ol {
   margin: 0 auto;
   width: 200px;
 }
+
+.rozsilka-search-input {
+  box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.75);
+  width: 479px;
+  height: 45px;
+}
+
+.rozsilka {
+  padding-top: 85px;
+  padding-left: 495px;
+  padding-right: 595px;
+  padding-bottom: 85px;
+  align-items: center;
+  text-align: center;
+}
+
+.search-rozsilka {
+  width: 489px;
+  display: flex;
+  align-items: center;
+}
+
+.search-rozsilka {
+  display: flex;
+  align-items: center;
+}
+
+.rozsilka-search-input {
+  width: 479px;
+  height: 45px;
+  border-radius: 30px 0px 0px 30px;
+}
+
+.rozsilka-search-button {
+  background: var(--Accent, #4985ff);
+  width: 150px;
+  height: 45px;
+  border-radius: 0px 30px 30px 0px;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.search-rozsilka {
+  margin-bottom: 35px;
+}
+
+.rozsilka-header {
+  width: 350px;
+  height: 17px;
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 30%;
+}
+
+.rozsilka-text-korisni-statti {
+  width: 730px;
+  color: var(--grey, #999);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 0px;
+}
+
+.rozsilka {
+  width: 100%;
+}
+
+.rozsilka-we-dont-send-spam {
+  color: var(--grey, #999);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 158.47%;
+  width: 386px;
+  height: 15px;
+}
+
+.our-video {
+  position: relative;
+  padding: 70px 0px 420px 0px;
+  background-image: url("https://s3-alpha-sig.figma.com/img/fd76/a69b/0746f16a225bfa607b82c9ce1286212a?Expires=1695600000&Signature=kfpVuqVsXJphVasqBuIfh6UswVQWxwQo2bs6Sumn4rUMTnOzXRDzZ3xXyGhNAcJQYuIGg1SR1vtqTdAyvTr0HsqI3Ud4lC4kapYc0kemyqNJrmQnKaEtMd4TjNA8PH7RIp7MWxXDOQQXnk0i0OmBiId8Vz7ELmoBHCGs8yRksCCGDeWU26j7BIiiLVXj6~4LtvuEEasWy0TK~TP-0asaRCm3rUHT7K2GyKGEErQSqScXT6LiJCzpxiTVoHMqEyHHnJ14r5bzariuqfR~Mxum8rgq4ljK84-6OYuaggdwt2mL2zwWEz-G9Ris9CamFyATIkpJXsej8mYPGGd0-p8BCw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+}
+
+.our-video-play-button {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 158.47%;
+}
+
+.our-video-player {
+  top: 50%;
+  right: 50%;
+  position: absolute;
+  padding: 165px 0;
+  width: 970px;
+  height: 430px;
+  background: url("https://s3-alpha-sig.figma.com/img/ec75/9987/c976e0276c592ca591ac3c7c286c4173?Expires=1695600000&Signature=nV-oi1MDIE5H6WykMAM~AgSgD-z~MeubyD0cn3JiEFnjsNJD0UZF~r2kzqpMB5PKPYOmXmC5y1PVUUlXBD~Sq7POGg0NZLT27VJP01AlsgsopwD37fwm~GCmU~haLZ2C57Uv4thE6q8dBx2HDrUKTS7cZhcly7-XwCBSx95rNWmKplJrln63UMpw051zYnnuSEeP8I9Q80Hk5P5z4kvAIOfhi8GbjSxuBU0eJAwq-g9kjUcvifv5XJRecCqbIWYOIc-VRcBmbCOWwBWh3WXt5MKVgbpbHxcOh97SwpYCpCGSjG0m69Ool6hiVdCj1Hd7pziYc8WYXdX1Toq9pYshEA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+  transform: translate(50%, -15%);
+  border-radius: 10px;
+  /* Shadow */
+  box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.our-video-player {
+  position: absolute;
+}
+
+.play-button {
+  width: 60px;
+  height: 60px;
+  background: rgb(0, 136, 255);
+  border-radius: 30px;
+}
+
+.rozsilka {
+  margin-top: 170px;
+}
