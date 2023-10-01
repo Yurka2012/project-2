@@ -72,13 +72,13 @@
   text-decoration-line: underline;
 }
 .our-spec {
-  background: rgb(95, 18, 208);
-  background: linear-gradient(
-    180deg,
-    rgba(95, 18, 208, 1) 48%,
-    rgba(255, 255, 255, 1) 50%
-  );
+  // background: rgb(95, 18, 208);
+  // background: rgb(95,18,208);
+  background: linear-gradient(180deg, rgba(95,18,208,1) 50%, rgba(255,255,255,1) 50%);
 
   padding-bottom: 85px;
   border-bottom: 1px solid $grey;
+}
+.our-spec{
+  padding-top: 100px;
 }

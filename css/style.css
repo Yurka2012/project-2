@@ -348,10 +348,13 @@ ol {
 }
 
 .our-spec {
-  background: rgb(95, 18, 208);
-  background: linear-gradient(180deg, rgb(95, 18, 208) 48%, rgb(255, 255, 255) 50%);
+  background: linear-gradient(180deg, rgb(95, 18, 208) 50%, rgb(255, 255, 255) 50%);
   padding-bottom: 85px;
   border-bottom: 1px solid #999;
+}
+
+.our-spec {
+  padding-top: 100px;
 }
 
 .our-projects-2 {
@@ -552,4 +555,25 @@ ol {
 
 .rozsilka {
   margin-top: 170px;
+}
+
+.our-video-heading {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 146.28%;
+}
+
+.our-video-p {
+  color: #FFF;
+  text-align: center;
+  /* p>h2 */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 158.47%; /* 25.355px */
 }
